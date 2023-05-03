@@ -12,7 +12,7 @@ const appointmentSchema = Schema({
     preferredcentre: { type: String, require: true },
     contactway: { type: String, require: true },
     comment: { type: String, require: true }
-   
+  
    
 })
 
