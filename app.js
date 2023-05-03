@@ -7,7 +7,7 @@ const centresRouters = require('./API/router/centres')
 const appointmentsRouter = require('./API/router/appointments')
 const usersRouter = require('./API/router/users')
 const mongoose = require("mongoose")
-const cors = require ('cors')
+
 require('dotenv').config
 mongoose.connect(process.env.mongoConnection)
 
