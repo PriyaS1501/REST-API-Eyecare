@@ -7,6 +7,7 @@ const appointmentSchema = Schema({
     emailid: { type: String, require: true },
     acontact: { type: Number, require: true },
     doa: { type: Date, require: true },
+    city : { type: String, require: true },
     gender: { type: String, require: true },
     preferredcentre: { type: String, require: true },
     contactway: { type: String, require: true },
