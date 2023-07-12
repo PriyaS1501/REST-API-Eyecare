@@ -11,8 +11,8 @@ const doctorSchema = Schema({
     email: { type: String, require: true },
     contact: { type: Number, require: true },
     centre: { type: String, require: true },
-    OPDtimeAM: { type: Number, require: true },
-    OPDtimePM: { type: Number, require: true },
+    OPDtimeAM: { type: String, require: true },
+    OPDtimePM: { type: String, require: true },
     OPDdays: { type: String, require: true },
     gender: { type: String, require: true }
 
